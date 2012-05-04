@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.top_row {
+	position: absolute;
+	top:0%;
+	background-image: url('../img/bg_top_row.png');
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 25%;
+}
+
+.middle_top_row {
+	position: absolute;
+	top:25%;
+	background-image: url('../img/bg_middle_top_row.png');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 25%;
+}
+
+.middle_bottom_row {
+	position: absolute;
+	top: 50%;
+	background-image: url('../img/bg_middle_bottom_row.png');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 25%;
+}
+
+.bottom_row {
+	position: absolute;
+	top:75%;
+	background-image: url('../img/bg_bottom_row.png');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 25%;
+}
+
+.mole {
+	position: absolute;
+	background-image: url('../img/mole.png');
+	background-size: 100% 100%;
+	width: 15%;
+	height: 15%;
+}
+.moleClicked{
+	background-image: url('../img/dead_mole.png');
+	background-size: 100% 100%;
+}
+
+.row1 {
+	top: 25%;
+}
+
+.row2 {
+	top: 50%;
+}
+
+.row3 {
+	top: 75%;
+}
+
+.col1 {
+	left: 8%;
+}
+
+.col2 {
+	left: 31%;
+}
+
+.col3 {
+	left: 54%;
+}
+
+.col4 {
+	left: 77%;
+}
+
+/* Animations */
+/*CHROME*/
+.slowR1{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: slowRowOne;
+	
+}
+@-webkit-keyframes slowRowOne {  
+	0% {   
+		top: 25%;
+	}  
+	50% {  
+		top: 5%;
+	}  
+	100%{
+		top: 25%;
+	}
+}  
+.slowR2{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: slowRowTwo;
+	
+}
+@-webkit-keyframes slowRowTwo {  
+	0% {   
+		top: 50%;
+	}  
+	50% {  
+		top: 35%;
+	}  
+	100%{
+		top: 50%;
+	}
+}  
+.slowR3{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: slowRowThree;
+	
+}
+@-webkit-keyframes slowRowThree {  
+	0% {   
+		top: 75%;
+	}  
+	50% {  
+		top: 65%;
+	}  
+	100%{
+		top: 75%;
+	}
+}  
+
+/*Firefox*/
+.slowR1{
+	-moz-animation-duration: 2s;
+	-moz-animation-name: slowRowOne;
+	
+}
+@-moz-keyframes slowRowOne {  
+	0% {   
+		top: 25%;
+	}  
+	50% {  
+		top: 5%;
+	}  
+	100%{
+		top: 25%;
+	}
+}  
+.slowR2{
+	-moz-animation-duration: 2s;
+	-moz-animation-name: slowRowTwo;
+	
+}
+@-moz-keyframes slowRowTwo {  
+	0% {   
+		top: 50%;
+	}  
+	50% {  
+		top: 35%;
+	}  
+	100%{
+		top: 50%;
+	}
+}  
+.slowR3{
+	-moz-animation-duration: 2s;
+	-moz-animation-name: slowRowThree;
+	
+}
+@-moz-keyframes slowRowThree {  
+	0% {   
+		top: 75%;
+	}  
+	50% {  
+		top: 65%;
+	}  
+	100%{
+		top: 75%;
+	}
+}  
