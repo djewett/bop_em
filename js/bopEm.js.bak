@@ -1,7 +1,7 @@
 /* Game object will control game flow and hold all the game objects */
 var bopEm = {};
 
-bopEm.init = function (){
+bopEm.init = function (){	
 	this.moles = [
 		[new Mole(jQuery('#mole11'),1,1),new Mole(jQuery('#mole12'),1,1),new Mole(jQuery('#mole13'),1,1),new Mole(jQuery('#mole14'),1,1)],
 		[new Mole(jQuery('#mole21'),2,1),new Mole(jQuery('#mole22'),2,1),new Mole(jQuery('#mole23'),2,1),new Mole(jQuery('#mole24'),2,1)],
