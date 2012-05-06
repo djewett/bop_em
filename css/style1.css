@@ -188,3 +188,103 @@ body {
 		top: 75%;
 	}
 }  
+/*Opera*/
+.slowR1{
+	-o-animation-duration: 2s;
+	-o-animation-name: slowRowOne;
+	
+}
+@-o-keyframes slowRowOne {  
+	0% {   
+		top: 25%;
+	}  
+	50% {  
+		top: 5%;
+	}  
+	100%{
+		top: 25%;
+	}
+}  
+.slowR2{
+	-o-animation-duration: 2s;
+	-o-animation-name: slowRowTwo;
+	
+}
+@-o-keyframes slowRowTwo {  
+	0% {   
+		top: 50%;
+	}  
+	50% {  
+		top: 35%;
+	}  
+	100%{
+		top: 50%;
+	}
+}  
+.slowR3{
+	-o-animation-duration: 2s;
+	-o-animation-name: slowRowThree;
+	
+}
+@-o-keyframes slowRowThree {  
+	0% {   
+		top: 75%;
+	}  
+	50% {  
+		top: 65%;
+	}  
+	100%{
+		top: 75%;
+	}
+}  
+
+/*IE*/
+.slowR1{
+	-ms-animation-duration: 2s;
+	-ms-animation-name: slowRowOne;
+	
+}
+@-ms-keyframes slowRowOne {  
+	0% {   
+		top: 25%;
+	}  
+	50% {  
+		top: 5%;
+	}  
+	100%{
+		top: 25%;
+	}
+}  
+.slowR2{
+	-ms-animation-duration: 2s;
+	-ms-animation-name: slowRowTwo;
+	
+}
+@-ms-keyframes slowRowTwo {  
+	0% {   
+		top: 50%;
+	}  
+	50% {  
+		top: 35%;
+	}  
+	100%{
+		top: 50%;
+	}
+}  
+.slowR3{
+	-ms-animation-duration: 2s;
+	-ms-animation-name: slowRowThree;
+	
+}
+@-ms-keyframes slowRowThree {  
+	0% {   
+		top: 75%;
+	}  
+	50% {  
+		top: 65%;
+	}  
+	100%{
+		top: 75%;
+	}
+}  
+
