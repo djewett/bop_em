@@ -7,7 +7,8 @@ bopEm.init = function (){
 		[new Mole(jQuery('#mole21'),2,1),new Mole(jQuery('#mole22'),2,1),new Mole(jQuery('#mole23'),2,1),new Mole(jQuery('#mole24'),2,1)],
 		[new Mole(jQuery('#mole31'),3,1),new Mole(jQuery('#mole32'),3,1),new Mole(jQuery('#mole33'),3,1),new Mole(jQuery('#mole34'),3,1)]		
 	];
-	jQuery('.mole').bind('click', function(){
+	//jQuery('.mole').bind('click', function(){
+	jQuery('.mole').bind('touchend click', function(){
 		$(this).addClass('moleClicked');
 	})
 	var counter = 0;
