@@ -9,11 +9,9 @@ function Mole(ele,row,speed){
 
 Mole.prototype.animate = function(){
 	if(!this.isAnimating){
-		console.log("Animating", this);
-		
 		this.element.addClass(this.aniClass);
 		this.isAnimating = true;
 		var self = this;
-		setTimeout(function(){self.isAnimating = false;self.element.removeClass(self.aniClass);self.removeClass('moleClicked')}, 3* 1000);
+		setTimeout(function(){self.isAnimating = false;self.element.removeClass(self.aniClass);self.element.removeClass('moleClicked')}, 3* 1000);
 	}
 }

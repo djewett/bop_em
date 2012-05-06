@@ -1,10 +1,6 @@
 /* Game object will control game flow and hold all the game objects */
 var bopEm = {};
 
-bopEm.test = function(){
-	console.log("The class is setup correctly");
-}
-
 bopEm.init = function (){	
 	this.moles = [
 		[new Mole(jQuery('#mole11'),1,1),new Mole(jQuery('#mole12'),1,1),new Mole(jQuery('#mole13'),1,1),new Mole(jQuery('#mole14'),1,1)],
@@ -22,6 +18,5 @@ bopEm.init = function (){
 bopEm.animate = function(counter){
 	var row = Math.floor(Math.random()*3);
 	var col = Math.floor(Math.random()*4);
-	console.log(row, " ", col);
 	this.moles[row][col].animate();
 }
