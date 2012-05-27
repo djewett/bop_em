@@ -52,40 +52,42 @@ body {
 	position: absolute;
 	background-image: url('../img/mole.png');
 	background-size: 100% 100%;
-	width: 15%;
-	height: 15%;
+	width: 12%;
+	height: 16%;
 }
 .moleClicked{
 	background-image: url('../img/dead_mole.png');
 	background-size: 100% 100%;
+	width: 12%;
+	height: 16%;
 }
 
 .row1 {
-	top: 35%;
+	top: 30%;
 }
 
 .row2 {
-	top: 60%;
+	top: 55%;
 }
 
 .row3 {
-	top: 85%;
+	top: 80%;
 }
 
 .col1 {
-	left: 8%;
+	left: 9.5%;
 }
 
 .col2 {
-	left: 31%;
+	left: 32.5%;
 }
 
 .col3 {
-	left: 54%;
+	left: 55.5%;
 }
 
 .col4 {
-	left: 77%;
+	left: 78.5%;
 }
 
 /* Animations */
@@ -97,13 +99,13 @@ body {
 }
 @-webkit-keyframes slowRowOne {  
 	0% {   
-		top: 35%;
+		top: 30%;
 	}  
 	50% {  
 		top: 5%;
 	}  
 	100%{
-		top: 35%;
+		top: 30%;
 	}
 }  
 .slowR2{
@@ -113,13 +115,13 @@ body {
 }
 @-webkit-keyframes slowRowTwo {  
 	0% {   
-		top: 60%;
+		top: 55%;
 	}  
 	50% {  
 		top: 35%;
 	}  
 	100%{
-		top: 60%;
+		top: 55%;
 	}
 }  
 .slowR3{
@@ -129,13 +131,13 @@ body {
 }
 @-webkit-keyframes slowRowThree {  
 	0% {   
-		top: 85%;
+		top: 80%;
 	}  
 	50% {  
 		top: 65%;
 	}  
 	100%{
-		top: 85%;
+		top: 80%;
 	}
 }  
 
@@ -147,13 +149,13 @@ body {
 }
 @-moz-keyframes slowRowOne {  
 	0% {   
-		top: 35%;
+		top: 30%;
 	}  
 	50% {  
 		top: 5%;
 	}  
 	100%{
-		top: 35%;
+		top: 30%;
 	}
 }  
 .slowR2{
@@ -163,13 +165,13 @@ body {
 }
 @-moz-keyframes slowRowTwo {  
 	0% {   
-		top: 60%;
+		top: 55%;
 	}  
 	50% {  
 		top: 35%;
 	}  
 	100%{
-		top: 60%;
+		top: 55%;
 	}
 }  
 .slowR3{
@@ -179,13 +181,13 @@ body {
 }
 @-moz-keyframes slowRowThree {  
 	0% {   
-		top: 85%;
+		top: 80%;
 	}  
 	50% {  
 		top: 65%;
 	}  
 	100%{
-		top: 85%;
+		top: 80%;
 	}
 }  
 
@@ -196,13 +198,13 @@ body {
 }
 @-o-keyframes slowRowOne {
 	0% {
-		top: 25%;
+		top: 30%;
 	}
 	50% {
 		top: 5%;
 	}
 	100%{
-		top: 25%;
+		top: 30%;
 	}
 }
 .slowR2{
@@ -211,13 +213,13 @@ body {
 }
 @-o-keyframes slowRowTwo {
 	0% {
-		top: 50%;
+		top: 55%;
 	}
 	50% {
 		top: 35%;
 	}
 	100%{
-		top: 50%;
+		top: 55%;
 	}
 }
 .slowR3{
@@ -226,30 +228,31 @@ body {
 }
 @-o-keyframes slowRowThree {
 	0% {
-		top: 75%;
+		top: 80%;
 	}
 	50% {
 		top: 65%;
 	}
 	100%{
-		top: 75%;
+		top: 80%;
 	}
 }
 
-/*IE*/
+/*IE --- TODO*/
+/*
 .slowR1{
 	-ms-animation-duration: 2s;
 	-ms-animation-name: slowRowOne;
 }
 @-ms-keyframes slowRowOne {
 	0% {
-		top: 35%;
+		top: 40%;
 	}
 	50% {
 		top: 5%;
 	}
 	100%{
-		top: 35%;
+		top: 40%;
 	}
 }
 .slowR2{
@@ -258,13 +261,13 @@ body {
 }
 @-ms-keyframes slowRowTwo {
 	0% {
-		top: 60%;
+		top: 65%;
 	}
 	50% {
 		top: 35%;
 	}
 	100%{
-		top: 60%;
+		top: 65%;
 	}
 }
 .slowR3{
@@ -273,22 +276,23 @@ body {
 }
 @-ms-keyframes slowRowThree {
 	0% {
-		top: 85%;
+		top: 90%;
 	}
 	50% {
 		top: 65%;
 	}
 	100%{
-		top: 85%;
+		top: 90%;
 	}
 }
+*/
 
 #hole_gradient11 {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 10%;
-	left: 0;
+	top: 17%;
+	left: 7%;
 	width: 25%;
 	height: 25%;
 }
@@ -296,7 +300,7 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 10%;
+	top: 17%;
 	left: 30%;
 	width: 25%;
 	height: 25%;
@@ -305,8 +309,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 10%;
-	left: 50%;
+	top: 17%;
+	left: 54%;
 	width: 25%;
 	height: 25%;
 }
@@ -314,8 +318,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 10%;
-	left: 75%;
+	top: 17%;
+	left: 73%;
 	width: 25%;
 	height: 25%;
 }
@@ -324,8 +328,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 45%;
-	left: 0;
+	top: 44%;
+	left: 7%;
 	width: 25%;
 	height: 25%;
 }
@@ -333,7 +337,7 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 45%;
+	top: 44%;
 	left: 30%;
 	width: 25%;
 	height: 25%;
@@ -342,8 +346,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 45%;
-	left: 50%;
+	top: 44%;
+	left: 54%;
 	width: 25%;
 	height: 25%;
 }
@@ -351,8 +355,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 45%;
-	left: 75%;
+	top: 44%;
+	left: 73%;
 	width: 25%;
 	height: 25%;
 }
@@ -361,8 +365,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 70%;
-	left: 0;
+	top: 69%;
+	left: 7%;
 	width: 25%;
 	height: 25%;
 }
@@ -370,7 +374,7 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 70%;
+	top: 69%;
 	left: 30%;
 	width: 25%;
 	height: 25%;
@@ -379,8 +383,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 70%;
-	left: 50%;
+	top: 69%;
+	left: 54%;
 	width: 25%;
 	height: 25%;
 }
@@ -388,8 +392,8 @@ body {
 	background-image: url('../img/hole_gradient.png');
 	/* background-size: 25% 25%; */
 	position: absolute;
-	top: 70%;
-	left: 75%;
+	top: 69%;
+	left: 73%;
 	width: 25%;
 	height: 25%;
 }

@@ -11,10 +11,6 @@ body {
 	right: 0;
 }
 
-canvas{
-    width:  100%;
-    height: 100%;
-}
 .top_row {
 	position: absolute;
 	top:0%;
@@ -65,15 +61,15 @@ canvas{
 }
 
 .row1 {
-	top: 25%;
+	top: 35%;
 }
 
 .row2 {
-	top: 50%;
+	top: 60%;
 }
 
 .row3 {
-	top: 75%;
+	top: 85%;
 }
 
 .col1 {
@@ -101,13 +97,13 @@ canvas{
 }
 @-webkit-keyframes slowRowOne {  
 	0% {   
-		top: 25%;
+		top: 35%;
 	}  
 	50% {  
 		top: 5%;
 	}  
 	100%{
-		top: 25%;
+		top: 35%;
 	}
 }  
 .slowR2{
@@ -117,13 +113,13 @@ canvas{
 }
 @-webkit-keyframes slowRowTwo {  
 	0% {   
-		top: 50%;
+		top: 60%;
 	}  
 	50% {  
 		top: 35%;
 	}  
 	100%{
-		top: 50%;
+		top: 60%;
 	}
 }  
 .slowR3{
@@ -133,13 +129,13 @@ canvas{
 }
 @-webkit-keyframes slowRowThree {  
 	0% {   
-		top: 75%;
+		top: 85%;
 	}  
 	50% {  
 		top: 65%;
 	}  
 	100%{
-		top: 75%;
+		top: 85%;
 	}
 }  
 
@@ -151,13 +147,13 @@ canvas{
 }
 @-moz-keyframes slowRowOne {  
 	0% {   
-		top: 25%;
+		top: 35%;
 	}  
 	50% {  
 		top: 5%;
 	}  
 	100%{
-		top: 25%;
+		top: 35%;
 	}
 }  
 .slowR2{
@@ -167,13 +163,13 @@ canvas{
 }
 @-moz-keyframes slowRowTwo {  
 	0% {   
-		top: 50%;
+		top: 60%;
 	}  
 	50% {  
 		top: 35%;
 	}  
 	100%{
-		top: 50%;
+		top: 60%;
 	}
 }  
 .slowR3{
@@ -183,112 +179,217 @@ canvas{
 }
 @-moz-keyframes slowRowThree {  
 	0% {   
-		top: 75%;
+		top: 85%;
 	}  
 	50% {  
 		top: 65%;
 	}  
 	100%{
-		top: 75%;
+		top: 85%;
 	}
 }  
+
 /*Opera*/
 .slowR1{
 	-o-animation-duration: 2s;
 	-o-animation-name: slowRowOne;
-	
 }
-@-o-keyframes slowRowOne {  
-	0% {   
+@-o-keyframes slowRowOne {
+	0% {
 		top: 25%;
-	}  
-	50% {  
+	}
+	50% {
 		top: 5%;
-	}  
+	}
 	100%{
 		top: 25%;
 	}
-}  
+}
 .slowR2{
 	-o-animation-duration: 2s;
 	-o-animation-name: slowRowTwo;
-	
 }
-@-o-keyframes slowRowTwo {  
-	0% {   
+@-o-keyframes slowRowTwo {
+	0% {
 		top: 50%;
-	}  
-	50% {  
+	}
+	50% {
 		top: 35%;
-	}  
+	}
 	100%{
 		top: 50%;
 	}
-}  
+}
 .slowR3{
 	-o-animation-duration: 2s;
 	-o-animation-name: slowRowThree;
-	
 }
-@-o-keyframes slowRowThree {  
-	0% {   
+@-o-keyframes slowRowThree {
+	0% {
 		top: 75%;
-	}  
-	50% {  
+	}
+	50% {
 		top: 65%;
-	}  
+	}
 	100%{
 		top: 75%;
 	}
-}  
+}
 
 /*IE*/
 .slowR1{
 	-ms-animation-duration: 2s;
 	-ms-animation-name: slowRowOne;
-	
 }
-@-ms-keyframes slowRowOne {  
-	0% {   
-		top: 25%;
-	}  
-	50% {  
-		top: 5%;
-	}  
-	100%{
-		top: 25%;
+@-ms-keyframes slowRowOne {
+	0% {
+		top: 35%;
 	}
-}  
+	50% {
+		top: 5%;
+	}
+	100%{
+		top: 35%;
+	}
+}
 .slowR2{
 	-ms-animation-duration: 2s;
 	-ms-animation-name: slowRowTwo;
-	
 }
-@-ms-keyframes slowRowTwo {  
-	0% {   
-		top: 50%;
-	}  
-	50% {  
-		top: 35%;
-	}  
-	100%{
-		top: 50%;
+@-ms-keyframes slowRowTwo {
+	0% {
+		top: 60%;
 	}
-}  
+	50% {
+		top: 35%;
+	}
+	100%{
+		top: 60%;
+	}
+}
 .slowR3{
 	-ms-animation-duration: 2s;
 	-ms-animation-name: slowRowThree;
-	
 }
-@-ms-keyframes slowRowThree {  
-	0% {   
-		top: 75%;
-	}  
-	50% {  
-		top: 65%;
-	}  
-	100%{
-		top: 75%;
+@-ms-keyframes slowRowThree {
+	0% {
+		top: 85%;
 	}
-}  
+	50% {
+		top: 65%;
+	}
+	100%{
+		top: 85%;
+	}
+}
 
+#hole_gradient11 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient12 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient13 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient14 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 10%;
+	left: 75%;
+	width: 25%;
+	height: 25%;
+}
+
+#hole_gradient21 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient22 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient23 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient24 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	width: 25%;
+	height: 25%;
+}
+
+#hole_gradient31 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 70%;
+	left: 0;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient32 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient33 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	width: 25%;
+	height: 25%;
+}
+#hole_gradient34 {
+	background-image: url('../img/hole_gradient.png');
+	/* background-size: 25% 25%; */
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	width: 25%;
+	height: 25%;
+}
